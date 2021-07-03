@@ -1,4 +1,4 @@
-import { useContext, useRef, useState } from 'react';
+import { useContext, useEffect, useRef, useState } from 'react';
 import styled from 'styled-components';
 
 // Context
@@ -63,12 +63,17 @@ const Line = styled.div`
 const Card = ({data}) => {
   const {
     setTotalPoints, 
+    setStartTimer,
+    timeout,
+    setCustomTimeout,
+    setClearTimer,
   } = useContext(PointsContext);
   const [isCorrect, setIsCorrect] = useState(null);
   const [isOpen, setIsOpen] = useState(false);
   const points = useRef(Math.ceil(Math.random() * 5)); // It is used to not change the point during rerendering of the component
 
   const handleToggle = () => {
+    (!isOpen) && setStartTimer(true);
     (isCorrect === null) && setIsOpen(prev => !prev);
   }
 
@@ -80,7 +85,18 @@ const Card = ({data}) => {
       setIsCorrect("wrong");
       setTotalPoints(prev => prev-=points.current);
     }
+    setClearTimer(true);
   }
+
+  useEffect(() => {
+    if (timeout && isOpen) {
+      setIsOpen(false);
+      setIsCorrect("wrong");
+      setCustomTimeout(false);
+      setStartTimer(false);
+      setTotalPoints(prev => prev-=points.current);
+    }
+  }, [timeout]);
 
   return <Container color={categoryColor[data.category]} isCorrect={isCorrect} onClick={handleToggle} >
     {isOpen 
