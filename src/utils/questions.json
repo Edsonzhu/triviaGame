@@ -1,0 +1,242 @@
+[
+  {
+    "question": "This essential gas is important so that we can breathe",
+    "answers": ["Oxygen","Nitrogen","Helium"],
+    "correct": 0,
+    "category": "science"
+  },
+  {
+    "question": "What is the nearest planet to the sun?",
+    "answers": ["Mars","Pluto","Mercury"],
+    "correct": 2,
+    "category": "science"
+  },
+  {
+    "question": "What is the largest planet in the solar system?",
+    "answers": ["Earth","Saturn","Jupiter"],
+    "correct": 2,
+    "category": "science"
+  },
+  {
+    "question": "What is the rarest blood type?",
+    "answers": ["O positive","AB negative","B negative"],
+    "correct": 1,
+    "category": "science"
+  },
+  {
+    "question": "On what part of your body would you find the pinna?",
+    "answers": ["Ear","Eye","Nose"],
+    "correct": 0,
+    "category": "science"
+  },
+  {
+    "question": "What tissue connects muscles to bones?",
+    "answers": ["Tendons","Fibres","Ligaments"],
+    "correct": 0,
+    "category": "science"
+  },
+  {
+    "question": "Sounds travels faster in air than in water",
+    "answers": ["True","False"],
+    "correct": 1,
+    "category": "science"
+  },
+  {
+    "question": "How long dos a human red blood cell survive?",
+    "answers": ["10 days","120 days","2 years"],
+    "correct": 1,
+    "category": "science"
+  },
+  {
+    "question": "Can you hear anything in outer space?",
+    "answers": ["Yes","No"],
+    "correct": 1,
+    "category": "science"
+  },
+  {
+    "question": "An egg’s shell is what percentage of its total weight?",
+    "answers": ["2%","8%","12%"],
+    "correct": 2,
+    "category": "science"
+  },
+  {
+    "question": "Who was the very first American Idol winner?",
+    "answers": ["Kelly Clarkson","Ryan Starr","Hilary Duff"],
+    "correct": 0,
+    "category": "music"
+  },
+  {
+    "question": "Before Miley Cyrus recorded “Wrecking Ball,” it was offered to which singer?",
+    "answers": ["Alicia Keys","Beyoncé","Leona Lewis"],
+    "correct": 1,
+    "category": "music"
+  },
+  {
+    "question": "What rock icon was the founder of The Society for the Prevention of Cruelty to Long-haired Men?",
+    "answers": ["David Bowie","Peter Frampton","Mick Jagger"],
+    "correct": 0,
+    "category": "music"
+  },
+  {
+    "question": "Eminem‘s 8 Mile is named after a road in which city?",
+    "answers": ["Chicago","San Fran","Detroit"],
+    "correct": 2,
+    "category": "music"
+  },
+  {
+    "question": "Who was the first woman ever inducted into the Rock and Roll Hall of Fame?",
+    "answers": ["Janice Joplin","Aretha Franklin","Pat Benatar"],
+    "correct": 1,
+    "category": "music"
+  },
+  {
+    "question": "Paul McCartney and John Lennon wrote which Rolling Stones song?",
+    "answers": ["I Wanna Be Your Man","Let’s spend the night together","Ruby Tuesday"],
+    "correct": 0,
+    "category": "music"
+  },
+  {
+    "question": "Which classical composer was deaf?",
+    "answers": ["Wolfgang Amadeux Mozart","Ludwig van Beethoven","Johann Sebastian Bach"],
+    "correct": 1,
+    "category": "music"
+  },
+  {
+    "question": "Prince introduced his iconic symbol on the cover of which single?",
+    "answers": ["Purple Rain","Little red corvette","1999"],
+    "correct": 2,
+    "category": "music"
+  },
+  {
+    "question": "What does Lady Gaga affectionately call her fans?",
+    "answers": ["Superheroes","Little Monsters","Gaga fans"],
+    "correct": 1,
+    "category": "music"
+  },
+  {
+    "question": "Who sang the Spongebob Squarepants theme song for the movie?",
+    "answers": ["Avril Lavigne","Hilary Duff","Miley Cyrus"],
+    "correct": 0,
+    "category": "music"
+  },
+  {
+    "question": "What part of the plant conducts photosynthesis?",
+    "answers": ["Stem","Flower","Leaf"],
+    "correct": 2,
+    "category": "nature"
+  },
+  {
+    "question": "What is the largest known land animal?",
+    "answers": ["Hippopotamus","Elephant","Giraffe"],
+    "correct": 1,
+    "category": "nature"
+  },
+  {
+    "question": "How many bones to sharks have in total?",
+    "answers": ["0 bones","3 bones","12 bones"],
+    "correct": 0,
+    "category": "nature"
+  },
+  {
+    "question": "Dolly was the first ever living creature to be cloned. What type of animal was she?",
+    "answers": ["Sheep","Mouse","Worm"],
+    "correct": 0,
+    "category": "nature"
+  },
+  {
+    "question": "What is the tallest type of grass",
+    "answers": ["Northwind switch grass","Pampas grass","Bamboo"],
+    "correct": 2,
+    "category": "nature"
+  },
+  {
+    "question": "What type of tree do acorns come from?",
+    "answers": ["Oak","Red maple","Sugar maple"],
+    "correct": 0,
+    "category": "nature"
+  },
+  {
+    "question": "What the hardest known material in nature",
+    "answers": ["Topaz","Corundum","Diamonds"],
+    "correct": 2,
+    "category": "nature"
+  },
+  {
+    "question": "How old, is the oldest living tree?",
+    "answers": ["4800 years","8100 years","1300 years"],
+    "correct": 0,
+    "category": "nature"
+  },
+  {
+    "question": "Where is the oldest living tree located?",
+    "answers": ["California, USA","British Columbia, CA","Canterbury, NZ"],
+    "correct": 0,
+    "category": "nature"
+  },
+  {
+    "question": "How many hearts does an octopus have?",
+    "answers": ["1","2","3"],
+    "correct": 2,
+    "category": "nature"
+  },
+  {
+    "question": "What’s the diameter of a basketball hoop in inches?",
+    "answers": ["14 inches","16 inches","18 inches"],
+    "correct": 2,
+    "category": "sports"
+  },
+  {
+    "question": "How big is an Olympic sized swimming pool in meters?",
+    "answers": ["50m x 30m","50m x 25m","60m x 30m"],
+    "correct": 1,
+    "category": "sports"
+  },
+  {
+    "question": "In professional basketball, how high is the basketball hoop from the ground?",
+    "answers": ["10ft","11ft","12ft"],
+    "correct": 0,
+    "category": "sports"
+  },
+  {
+    "question": "The Summer Olympics are held every how many years?",
+    "answers": ["2 years","4 years","6 years"],
+    "correct": 1,
+    "category": "sports"
+  },
+  {
+    "question": "What sport is dubbed the ‘king of sports’?",
+    "answers": ["Hockey","Football","Soccer"],
+    "correct": 2,
+    "category": "sports"
+  },
+  {
+    "question": "In American Football, a touchdown is worth how many points?",
+    "answers": ["3 points","6 points","9 points"],
+    "correct": 1,
+    "category": "sports"
+  },
+  {
+    "question": "What is Canada’s national sport?",
+    "answers": ["Hockey","Lacrosse","Cross country skiing"],
+    "correct": 1,
+    "category": "sports"
+  },
+  {
+    "question": "How many players are on a baseball team?",
+    "answers": ["9 players","15 players","20 players"],
+    "correct": 0,
+    "category": "sports"
+  },
+  {
+    "question": "What team gets the advantage of first bat in baseball",
+    "answers": ["Home team","Visiting team"],
+    "correct": 1,
+    "category": "sports"
+  },
+  {
+    "question": "How many dimples does an average golf ball have?",
+    "answers": ["128","260","336"],
+    "correct": 2,
+    "category": "sports"
+  }
+]

@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import PointsProvider from './context/Points';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <PointsProvider>
+      <App />
+    </PointsProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
